@@ -1,0 +1,15 @@
+[package]
+name = "vim-statusline"
+version = "0.1.0"
+authors = ["ddCeka"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4"
+rmp-rpc = "0.3"
+rmp = "0.8"
+fern = { version = "0.5", features = ["colored"] }
+log = "0.4.6"
+tokio = "0.1.18"
+futures = "0.1"
+tokio-file-unix = "0.5"
